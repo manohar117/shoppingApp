@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.love2shop.springbootshop.SpringBootShopApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 19.177 s <<< FAILURE! - in com.love2shop.springbootshop.SpringBootShopApplicationTests
+testCreate  Time elapsed: 0.661 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.love2shop.springbootshop.SpringBootShopApplicationTests.testCreate(SpringBootShopApplicationTests.java:41)
+
+testDelete  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.love2shop.springbootshop.entity.Book entity with id 26 exists!
+	at com.love2shop.springbootshop.SpringBootShopApplicationTests.testDelete(SpringBootShopApplicationTests.java:71)
+
